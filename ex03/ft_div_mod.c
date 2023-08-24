@@ -6,11 +6,9 @@
 /*   By: truello <thomasdelan2@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/24 09:05:54 by truello           #+#    #+#             */
-/*   Updated: 2023/08/24 09:14:23 by truello          ###   ########.fr       */
+/*   Updated: 2023/08/24 14:46:03 by truello          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
