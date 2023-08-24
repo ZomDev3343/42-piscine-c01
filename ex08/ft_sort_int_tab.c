@@ -6,8 +6,11 @@
 /*   By: truello <thomasdelan2@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/24 14:29:52 by truello           #+#    #+#             */
-/*   Updated: 2023/08/24 14:29:58 by truello          ###   ########.fr       */
+/*   Updated: 2023/08/24 14:42:39 by truello          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
+void	ft_sort_int_tab(int *tab, int size)
+{
+	
+}

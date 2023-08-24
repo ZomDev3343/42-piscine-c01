@@ -6,12 +6,9 @@
 /*   By: truello <thomasdelan2@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/24 12:34:45 by truello           #+#    #+#             */
-/*   Updated: 2023/08/24 14:29:03 by truello          ###   ########.fr       */
+/*   Updated: 2023/08/24 14:42:59 by truello          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-#include <stdio.h>
 
 void	ft_rev_int_tab(int *tab, int size)
 {
@@ -26,8 +23,8 @@ void	ft_rev_int_tab(int *tab, int size)
 	while (counter <= loop_limit)
 	{
 		tmp = tab[counter];
-		tab[counter] = tab[size-counter-1];
-		tab[size-counter-1] = tmp;
+		tab[counter] = tab[size - counter - 1];
+		tab[size - counter - 1] = tmp;
 		counter++;
 	}
 }
